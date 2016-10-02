@@ -123,6 +123,7 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # CM Hardware
 BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/cmhw
+BOARD_HW_CLASS += $(PLATFORM_PATH)/hw
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # CNE and DPM
